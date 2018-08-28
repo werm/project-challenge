@@ -1,5 +1,17 @@
 {
   "name": "dog-profile",
   "private": true,
-  "dependencies": {}
+  "dependencies": {
+    "@rails/webpacker": "3.5",
+    "vue": "^2.5.17",
+    "vue-loader": "14.2.2",
+    "vue-router": "^3.0.1",
+    "vue-template-compiler": "^2.5.17"
+  },
+  "devDependencies": {
+    "vue-agile": "^0.3.7",
+    "vue-flux": "^2.0.3",
+    "vueperslides": "^1.13.1",
+    "webpack-dev-server": "2.11.2"
+  }
 }

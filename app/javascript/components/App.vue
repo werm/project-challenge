@@ -1,0 +1,27 @@
+<template>
+  <div id="app">
+    
+    <Navbar />
+
+    <div class="container-fluid">
+      <router-view></router-view>
+    </div>
+    
+  </div>
+</template>
+
+<script>
+import Navbar from './Navbar';
+
+export default {
+  components: {
+    Navbar
+  }
+}
+</script>
+
+<style>
+.container-fluid {
+  padding-top: 80px;
+}
+</style>
